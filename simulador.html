@@ -3,25 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Calculadora Interactiva Multifuncional</title>
+    <title>Tienda de Libros</title>
     <link rel="stylesheet" href="styles.css">
     <script src="miarchivo.js" defer></script>
     <link href="https://fonts.googleapis.com/css2?family=Krona+One&display=swap" rel="stylesheet"> <!-- Enlace a la fuente Krona One -->
-
 </head>
 <body>
-    <h1>Calculadora Interactiva Multifuncional</h1>
+    <h1>Tienda de Libros</h1>
     
     <a href="bienvenida.html" class="btn-regresar">Regresar a la Bienvenida</a>
     
     <select id="procesoSelector">
-        <option value="calcularCosto">Calcular costo total</option>
+        <option value="capturarEntradas">Capturar entradas</option>
         <option value="calcularCuotas">Calcular pagos en cuotas</option>
         <option value="calcularValorFinal">Calcular valor final</option>
-        <!-- Agregaré más opciones de proceso -->
+        <option value="buscarProducto">Buscar libro por nombre</option> <!-- Opción para buscar libro por nombre -->
+        <option value="filtrarProductos">Filtrar libros por precio</option> <!-- Opción para filtrar libros por precio -->
+        <option value="verProductosDisponibles">Ver todos los productos disponibles</option> <!-- Agregada opción para ver productos -->
+        <!-- más opciones de proceso aquí si es necesario -->
     </select>
     
     <div id="formulario"></div>
-    <div id="resultado"></div>
+    <div id="resultado">
+        <p id="informacionLibro"></p>
+    </div>
 </body>
 </html>
+
+
+

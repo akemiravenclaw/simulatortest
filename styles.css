@@ -41,7 +41,7 @@ body {
 
 .btn-empezar:hover {
     background-color: #ff8f00;
-    transform: scale(1.05); /* este estilo escala ligeramente el botón al pasar el cursor sobre él */
+    transform: scale(1.05); /* Este estilo escala ligeramente el botón al pasar el cursor sobre él */
 }
 
 /* Página del simulador */
@@ -82,7 +82,7 @@ label {
     color: #555;
 }
 
-input[type="number"] {
+input[type="number"], input[type="text"] {
     width: 100%;
     padding: 10px;
     border: 1px solid #ccc;
@@ -125,4 +125,21 @@ button:hover {
     to {
         opacity: 1;
     }
+}
+
+/* Estilo para la imagen del libro */
+#imagenLibro {
+    margin-top: 20px;
+}
+
+#imagenLibroImg {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Estilo para la información del libro */
+#informacionLibro {
+    margin-top: 20px;
 }
