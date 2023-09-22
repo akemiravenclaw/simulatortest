@@ -1,6 +1,6 @@
 /* Estilos generales */
 body {
-    font-family: 'Krona One', sans-serif; /* Cambio de fuente */
+    font-family: 'Krona One', sans-serif;
     margin: 0;
     padding: 0;
     background-color: #DAF7A6;
@@ -41,7 +41,7 @@ body {
 
 .btn-empezar:hover {
     background-color: #ff8f00;
-    transform: scale(1.05); /* Este estilo escala ligeramente el botón al pasar el cursor sobre él */
+    transform: scale(1.05);
 }
 
 /* Página del simulador */
@@ -52,9 +52,9 @@ body {
     font-size: 16px;
     width: 90%;
     max-width: 400px;
-    opacity: 0; /* Inicialmente, el selector está oculto */
-    transform: translateY(-20px); /* Lo desplaza hacia arriba */
-    animation: fadeInUp 0.5s forwards 0.2s; /* Aplica la animación fadeInUp */
+    opacity: 0;
+    transform: translateY(-20px);
+    animation: fadeInUp 0.5s forwards 0.2s;
 }
 
 @keyframes fadeInUp {
@@ -117,29 +117,12 @@ button:hover {
     border: 1px solid #ccc;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    opacity: 0; /* Inicialmente, el resultado está oculto */
-    animation: fadeIn 0.10s forwards; /* Aplica la animación fadeIn */
+    opacity: 0;
+    animation: fadeIn 0.10s forwards;
 }
 
 @keyframes fadeIn {
     to {
         opacity: 1;
     }
-}
-
-/* Estilo para la imagen del libro */
-#imagenLibro {
-    margin-top: 20px;
-}
-
-#imagenLibroImg {
-    max-width: 100%;
-    height: auto;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-}
-
-/* Estilo para la información del libro */
-#informacionLibro {
-    margin-top: 20px;
 }
